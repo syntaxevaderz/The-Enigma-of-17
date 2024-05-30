@@ -1,0 +1,15 @@
+#puzzle-container {
+    width: 800px;  /* Half of image width */
+    height: 450px; /* Half of image height */
+    margin: 20px auto;
+    position: relative;
+    border: 2px solid #ccc;
+    display: flex;
+    flex-wrap: wrap;
+}
+.puzzle-piece {
+    width: 400px; /* One-fourth of the image width */
+    height: 225px; /* One-fourth of the image height */
+    cursor: pointer;
+    background-size: 800px 450px; /* Equal to the puzzle-container size */
+}
