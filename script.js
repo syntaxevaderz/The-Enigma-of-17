@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
         for (let i = 0; i < totalPieces; i++) {
             const piece = document.createElement('div');
             piece.className = 'puzzle-piece';
-            piece.style.backgroundImage = 'url("your_image.jpg")';
+            piece.style.backgroundImage = 'url("image.jpg")';
             pieces.push(piece);
             container.appendChild(piece);
         }
