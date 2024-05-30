@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const x = i % cols;
             const y = Math.floor(i / cols);
             const piece = pieces[pieceIndex];
-            piece.style.backgroundPosition = `-${x * 400}px -${y * 225}px`; // Adjust for new dimensions
+            piece.style.backgroundPosition = `-${x * 400}px -${y * 225}px`;
             piece.onclick = function() {
                 swapPieces(i, pieceIndex);
             };
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const isComplete = pieces.every((piece, i) => {
             const x = i % cols;
             const y = Math.floor(i / cols);
-            const correctPosition = `-${x * 400}px -${y * 225}px`; // Adjust for new dimensions
+            const correctPosition = `-${x * 400}px -${y * 225}px`; //adjust to compensate
             return piece.style.backgroundPosition === correctPosition;
         });
 
