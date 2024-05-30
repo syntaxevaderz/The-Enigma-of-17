@@ -13,3 +13,8 @@
     cursor: pointer;
     background-size: 800px 450px; /* Equal to the puzzle-container size */
 }
+body {
+    background-color: black;
+    color: white; /* Changes text color to white for better readability */
+}
+
