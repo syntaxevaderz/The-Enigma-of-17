@@ -8,13 +8,13 @@
     flex-wrap: wrap;
 }
 .puzzle-piece {
-    width: 400px; /* One-fourth of the image width */
-    height: 225px; /* One-fourth of the image height */
+    width: 400px; /* One-fourth of image width */
+    height: 225px; /* One-fourth of image height */
     cursor: pointer;
-    background-size: 800px 450px; /* Equal to the puzzle-container size */
+    background-size: 800px 450px; /*puzzle-container size */
 }
 body {
     background-color: black;
-    color: white; /* Changes text color to white for better readability */
+    color: white; /*text color to white: better readability */
 }
 
